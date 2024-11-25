@@ -36,7 +36,7 @@ public class Game {
                         keepPlaying = false;
                 }
             } catch (IllegalStateException e) {
-                System.out.println("Error: " + e.getMessage());
+                System.out.println(e.getMessage());
             }
         }
     }
